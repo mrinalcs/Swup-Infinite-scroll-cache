@@ -190,3 +190,18 @@ main a {
 .pagination {
   display: none;
 }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: calc(0.8em + 1vw);
+}
+
+.detail__content {
+  margin: 2rem -6vw;
+  padding: 2rem 6vw;
+  background-color: white;
+  color: var(--swup-blue);
+  border-radius: var(--radius-1);
+}
